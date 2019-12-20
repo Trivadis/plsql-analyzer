@@ -83,6 +83,9 @@ The column `CAP_ID` is the primary key of the table and should be populated with
 
 The structure above could be populated on an Oracle instance as follows:
 
+<details>
+<summary>Sample Population of `tvd_captured_sql_t`</summary>
+<p>
 ```sql
 MERGE INTO tvd_captured_sql_t t
 USING (SELECT a.sql_id,
@@ -152,6 +155,9 @@ WHEN NOT MATCHED THEN
        s.action,
        s.last_load_time)
 ```
+</p>
+</details>
+
 Please note that the column `sql_fulltext` is not available in `v$sql_area` before version 11g Release 1 and that the SQL statement gathering process is not part of PL/SQL Analyzer.
 
 ## Custom Analysis
