@@ -1,3 +1,7 @@
+# DEPRECATION NOTICE
+
+This Project is deprecated. We recommend using PL/SQL Cop for code analysis.
+
 # PL/SQL Analyzer
 
 ## Introduction
