@@ -14,7 +14,7 @@ On Windows the `java.exe` is located in the `%JAVA_HOME%\bin` directory.
 
 ## What are the limitations?
 
-See [parser limitations](https://github.com/Trivadis/plsql-cop-cli/blob/master/parser-limitations.md).
+See [parser limitations](https://github.com/Trivadis/plsql-cop-cli/blob/main/parser-limitations.md).
 
 ## What has changed in the latest version?
 
